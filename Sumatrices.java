@@ -28,7 +28,16 @@ public class Sumatrices {
                     scanner.next();
                 }
                 B[i][j] = scanner.nextInt();
-                
+        
+            }    
+        }
+
+         // Suma S = A + B
+        for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 3; j++) {
+                S[i][j] = A[i][j] + B[i][j];
+            }
+        }    
     }
 
 }        

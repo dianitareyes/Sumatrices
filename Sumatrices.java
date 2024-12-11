@@ -50,4 +50,14 @@ public class Sumatrices {
         scanner.close();  
     }
 
+    public static void imprimirMatriz(int[][] matriz) {
+        for (int[] fila : matriz) {
+            for (int elemento : fila) {
+                System.out.print(elemento + "\t");
+            }
+            System.out.println();
+        }    
+    
+    }
+
 }        

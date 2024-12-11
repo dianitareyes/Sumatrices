@@ -37,7 +37,17 @@ public class Sumatrices {
             for (int j = 0; j < 3; j++) {
                 S[i][j] = A[i][j] + B[i][j];
             }
-        }    
+        }  
+
+        // Mostrar matrices
+        System.out.println("Matriz A:");
+        imprimirMatriz(A);
+        System.out.println("Matriz B:");
+        imprimirMatriz(B);
+        System.out.println("Matriz Resultante S (A + B):");
+        imprimirMatriz(S);
+
+        scanner.close();  
     }
 
 }        
